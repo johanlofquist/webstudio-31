@@ -89,13 +89,21 @@ header i {
     font-size: 50px;
     font-weight: 200;
     margin-top: 80px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .about p {
     width: 80%;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 37px;
+    margin-top: 0;
+    font-weight: 100;
+    line-height: 22px;
+}
+
+#web31 {
+    font-weight: 500;
+    color: var(--ws31red);
 }
 
 #grafik {
