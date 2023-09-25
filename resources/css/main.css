@@ -97,6 +97,16 @@ header i {
     margin-bottom: 30px;
 }
 
+#grafik {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
 #couple {
     width: 200px;
     border-radius: 10px 10px 100px 100px;
@@ -105,8 +115,8 @@ header i {
 
 #prickar {
     position: absolute;
-    width: 320px;
-    top: 620px;
+    width: 290px;
+    top: 5px;
     z-index: -1;
     animation: rotation 30s infinite linear;
 }
@@ -115,7 +125,7 @@ header i {
     width: 100%;
     background-color: var(--ws31yellow);
     position: absolute;
-    top: 628px;
+    top: -2px;
 }
 
 @keyframes rotation {
