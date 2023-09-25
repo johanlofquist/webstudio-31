@@ -15,7 +15,6 @@ body {
     font-family: 'Barlow', sans-serif;
     font-weight: 100;
     margin: 0;
-    height: 2000px;
 }
 
 header {
@@ -95,20 +94,28 @@ header i {
 
 .about p {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 #couple {
     width: 200px;
     border-radius: 10px 10px 100px 100px;
+    z-index: 1;
 }
 
 #prickar {
-    position: relative;
-    width: 350px;
-    top: -270px;
+    position: absolute;
+    width: 320px;
+    top: 620px;
     z-index: -1;
     animation: rotation 30s infinite linear;
+}
+#bakgrund {
+    height: 150px;
+    width: 100%;
+    background-color: var(--ws31yellow);
+    position: absolute;
+    top: 628px;
 }
 
 @keyframes rotation {
