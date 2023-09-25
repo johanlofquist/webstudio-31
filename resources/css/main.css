@@ -87,7 +87,7 @@ header i {
 .about h1 {
     color: var(--ws31red);
     font-size: 50px;
-    font-weight: 200;
+    font-weight: 300;
     margin-top: 80px;
     margin-bottom: 30px;
 }
@@ -144,4 +144,32 @@ header i {
     to {
       transform: rotate(359deg);
     }
+  }
+
+  .case__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #whatwedo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
+  #whatwedo h1{
+    color: var(--ws31red);
+    font-size: 40px;
+    font-weight: 400;
+  }
+  #whatwedo i {
+    font-size: 30px;
+    color: var(--ws31red);
+    margin-right: 30px;
   }
