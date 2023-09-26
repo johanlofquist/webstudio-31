@@ -13,8 +13,9 @@
 body {
     background-color: var(--ws31yellow);
     font-family: 'Barlow', sans-serif;
-    font-weight: 100;
+    font-weight: 200;
     margin: 0;
+    height: 2000px;
 }
 
 header {
@@ -27,6 +28,7 @@ header {
     position: sticky;
     top: 0;
     background-color: var(--ws31yellow);
+    z-index: 2;
 }
 
 .logo__container {
@@ -99,6 +101,7 @@ header i {
     margin-top: 0;
     font-weight: 100;
     line-height: 22px;
+    font-weight: 200;
 }
 
 #web31 {
@@ -151,7 +154,7 @@ header i {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
   }
 
@@ -161,7 +164,6 @@ header i {
     justify-content: space-between;
     width: 100%;
     margin-top: 100px;
-    margin-bottom: 30px;
   }
   #whatwedo h1{
     color: var(--ws31red);
@@ -171,5 +173,46 @@ header i {
   #whatwedo i {
     font-size: 30px;
     color: var(--ws31red);
-    margin-right: 30px;
+    margin-right: 20px;
+  }
+
+  .smaller__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .number__container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  #number {
+    font-size: 24px;
+    background-color: #B90001;
+    color: #e3e399;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: center;
+    margin-right: 10px;
+  }
+
+  #text {
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0;
+  }
+
+  #description {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: 200;
   }
