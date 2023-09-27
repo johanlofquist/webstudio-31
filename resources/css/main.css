@@ -15,14 +15,15 @@ body {
     font-family: 'Barlow', sans-serif;
     font-weight: 200;
     margin: 0;
-    height: 2000px;
+    padding: 0;
+    scroll-behavior: smooth;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin: 10px auto;
+    margin: 0 auto;
     align-items: center;
     border-bottom: 0.1px solid black;
     position: sticky;
@@ -74,6 +75,8 @@ header i {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    overflow: clip;
 }
 
 .big__logo img {
@@ -92,14 +95,14 @@ header i {
     text-align: center;
 }
 #prick1 {
-    width: 230px;
-    height: 230px;
+    width: 250px;
+    height: 250px;
     background-color: #DAC685;
     border-radius: 50%;
     position: absolute;
     z-index: -1;
-    top: 20px;
-    right: -50px;
+    top: -40px;
+    right: -60px;
     overflow: hidden;
 }
 #prick2 {
@@ -109,9 +112,8 @@ header i {
     border-radius: 50%;
     position: absolute;
     z-index: -1;
-    top: 250px;
+    top: 170px;
     left: -80px;
-    overflow: hidden;
 }
 #prick3 {
     width: 230px;
@@ -121,7 +123,7 @@ header i {
     position: absolute;
     z-index: -1;
     right: 10px;
-    top: 500px;
+    top: -600px;
 }
 
 .about {
@@ -269,3 +271,53 @@ header i {
   .margin__bottom {
     margin-bottom: 33px;
   }
+
+  .contact__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 85%;
+    margin: 0 auto;
+    gap: 10px;
+    position: relative;
+  }
+  .contact__container h1{
+    color: var(--ws31red);
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 43px;
+  }
+  .contact__container a{
+    text-decoration: none;
+    color: var(--ws31red);
+  }
+  .contact__text {
+    text-align: right;
+  }
+  .text__style {
+    font-weight: 300;
+    font-size: 23px;
+  }
+
+  #prick4 {
+    width: 230px;
+    height: 230px;
+    background-color: #DAC685;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    left: -110px;
+    bottom: -70px;
+}
+  .footer__container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+  }
+  .footer__container a{
+    font-size: 80px;
+    margin: 40px 0;
+    color: #B90001;
+}
