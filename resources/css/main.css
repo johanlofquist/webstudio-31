@@ -123,7 +123,7 @@ header i {
     position: absolute;
     z-index: -1;
     right: 10px;
-    top: -600px;
+    top: -680px;
 }
 
 .about {
@@ -131,6 +131,7 @@ header i {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 80px;
 }
 
 .about h1 {
