@@ -72,11 +72,54 @@ header i {
 
 .big__logo {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .big__logo img {
     width: 200px;
     margin: 150px auto;
+}
+.big__logo a {
+    color: var(--ws31yellow);
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #B90001;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+#prick1 {
+    width: 230px;
+    height: 230px;
+    background-color: #DAC685;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    top: 20px;
+    right: -50px;
+}
+#prick2 {
+    width: 250px;
+    height: 250px;
+    background-color: #DAC685;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    top: 250px;
+    left: -80px;
+}
+#prick3 {
+    width: 230px;
+    height: 230px;
+    background-color: #DAC685;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    right: 10px;
+    top: 500px;
 }
 
 .about {
@@ -128,7 +171,7 @@ header i {
 #prickar {
     position: absolute;
     width: 290px;
-    top: 5px;
+    top: 0px;
     z-index: -1;
     animation: rotation 30s infinite linear;
 }
@@ -137,7 +180,7 @@ header i {
     width: 100%;
     background-color: var(--ws31yellow);
     position: absolute;
-    top: -2px;
+    top: -5px;
 }
 
 @keyframes rotation {
@@ -156,6 +199,11 @@ header i {
     align-items: flex-start;
     width: 85%;
     margin: 0 auto;
+    margin-top: 100px;
+  }
+
+  #background__color {
+    background-color: #DAC685;
   }
 
   #whatwedo {
@@ -163,7 +211,6 @@ header i {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin-top: 100px;
   }
   #whatwedo h1{
     color: var(--ws31red);
@@ -215,4 +262,8 @@ header i {
     font-size: 16px;
     margin-top: 5px;
     font-weight: 200;
+  }
+
+  .margin__bottom {
+    margin-bottom: 33px;
   }
