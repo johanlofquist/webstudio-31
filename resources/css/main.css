@@ -100,6 +100,7 @@ header i {
     z-index: -1;
     top: 20px;
     right: -50px;
+    overflow: hidden;
 }
 #prick2 {
     width: 250px;
